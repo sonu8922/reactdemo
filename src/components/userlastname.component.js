@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class UserLastName extends Component {
   constructor(props) {
     super(props);
-    this.baseURL = "http://127.0.0.1:5001/api/getusersurname"
+    this.baseURL = "https://sonu-react-demo.herokuapp.com/api/getusersurname"
     this.state = {
       username: '',
       responseResult:{},
